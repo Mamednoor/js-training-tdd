@@ -8,6 +8,17 @@
 
 // Your code:
 
+// faire une fonction qui s'appel add
+// dans cette fonction faire une fonction qui prends 2 arguments et les ajoutes
+//
+
+
+function add(a, b) {
+    return a + b;    
+};
+const result = add(Math.random()+Math.random);
+
+
 //* Begin of tests
 const assert = require('assert');
 const rand = Math.random();
