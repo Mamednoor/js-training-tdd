@@ -8,9 +8,7 @@
 
 // Your code:
 
-const id = (id) => {
-    return id
-}
+const id = (id) => id;
 
 
 //* Begin of tests

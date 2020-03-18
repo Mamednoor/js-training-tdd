@@ -9,6 +9,8 @@
 
 // Your code:
 
+const sameSign = (nb1, nb2) => nb1 * -1 < 0 && nb2 * -1 < 0 || nb1 * -1 > 0 && nb2 * -1 > 0 || nb1 === nb2? true : false;
+
 //* Begin of tests
 const assert = require('assert');
 

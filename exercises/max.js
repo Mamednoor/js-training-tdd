@@ -11,6 +11,20 @@
 
 // Your code:
 
+/*
+function max(a,b){
+    if (a>b){
+        return a
+    }
+    else {
+        return b
+    }
+};
+*/
+
+const max = (a,b) => a > b ? a : b;
+
+
 //* Begin of tests
 const assert = require('assert');
 

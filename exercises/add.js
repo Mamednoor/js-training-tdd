@@ -13,10 +13,11 @@
 //
 
 
-function add(a, b) {
+/*function add(a, b) {
     return a + b;    
-};
-const result = add(Math.random()+Math.random);
+};*/
+
+const add = (a,b) => a+b;
 
 
 //* Begin of tests

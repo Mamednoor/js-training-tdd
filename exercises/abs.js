@@ -11,6 +11,15 @@
 
 // Your code:
 
+/*function abs (param) {
+    if (param>=0){
+        return param
+    }
+    else {
+        return param * -1
+    }
+};*/
+
 const abs = (param) => param >= 0 ? param : param * -1;
 
 //* Begin of tests

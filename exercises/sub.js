@@ -8,9 +8,12 @@
 
 // Your code:
 
-function sub(a,b) {
+/*function sub(a,b) {
     return a - b;
-};
+}; */
+
+const sub = (a,b) => a-b;
+
 
 //* Begin of tests
 const assert = require('assert');
