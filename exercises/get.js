@@ -17,6 +17,10 @@ const sourceObject = {
 
 // Your code:
 
+for (let key in sourceObject) {
+  return (key, sourceObject[key]);
+};
+
 //* Begin of tests
 const assert = require('assert');
 
