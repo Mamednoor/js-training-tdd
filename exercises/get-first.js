@@ -9,6 +9,7 @@
 
 // Your code:
 
+const getFirst = getFirst => getFirst[0];
 //* Begin of tests
 const assert = require('assert');
 
