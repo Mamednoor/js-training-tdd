@@ -9,6 +9,8 @@
 
 // Your code:
 
+const getLast = getLast => getLast[getLast.length - 1];
+
 //* Begin of tests
 const assert = require('assert');
 
