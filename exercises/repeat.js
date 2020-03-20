@@ -9,6 +9,8 @@
 
 // Your code:
 
+const repeat = (a,b) => (a,b) > 0 ? a.repeat(b) : false;
+
 //* Begin of tests
 const assert = require('assert');
 

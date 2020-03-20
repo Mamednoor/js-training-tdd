@@ -9,7 +9,12 @@
 
 // Your code:
 
+const escapeStr = "/\\`\"'";
+
+// const escapeStr = i = 0; i < escapeStr.includes("'","'","\\","/","`"); i++ ? true : false;
+
 //* Begin of tests
+
 const assert = require('assert');
 
 assert.strictEqual(typeof escapeStr, 'string');
