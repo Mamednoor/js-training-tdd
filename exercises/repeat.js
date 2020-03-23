@@ -9,7 +9,16 @@
 
 // Your code:
 
-const repeat = (a,b) => (a,b) > 0 ? a.repeat(b) : false;
+/* const repeat = (a,b) => (a,b) >= 0 ? a.repeat(b) : false; */
+
+function repeat (a,b) {
+  let result = '';
+  for ( let i = 0 ; i < b ; i++ ) {
+      result += a; 
+  }
+  return result
+}
+
 
 //* Begin of tests
 const assert = require('assert');
