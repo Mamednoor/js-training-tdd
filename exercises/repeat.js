@@ -9,7 +9,8 @@
 
 // Your code:
 
-/* const repeat = (a,b) => (a,b) >= 0 ? a.repeat(b) : false; */
+/* const repeat = result.forEach(a,b) => let i = 0 ; i < b ; i++;  */
+
 
 function repeat(a, b) {
   let result = '';
@@ -18,6 +19,7 @@ function repeat(a, b) {
   }
   return result
 }
+
 
 
 //* Begin of tests

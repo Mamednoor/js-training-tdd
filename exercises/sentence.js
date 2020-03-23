@@ -8,10 +8,15 @@
 
 // Your code:
 
+/* 
+
 function sentence (tab) {
     return tab.join(' ')
-}
+} 
 
+*/
+
+const sentence = (tab) => tab.join(' ');
 
 
 //* Begin of tests

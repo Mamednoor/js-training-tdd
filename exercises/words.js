@@ -8,9 +8,17 @@
 
 // Your code:
 
+/* 
+
 function words (word) {
     return word.split(" ")
-};
+}; 
+
+*/
+
+const words = (word) => word.split(" ");
+
+
 
 //* Begin of tests
 const assert = require('assert');
