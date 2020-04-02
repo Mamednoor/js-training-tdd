@@ -9,6 +9,10 @@
  */
 
 // Your code:
+const multiply = (a,b) => multiply;
+ let i = 0; i < multiply; i++;
+ return multiply
+
 
 //* Begin of tests
 const assert = require('assert');
